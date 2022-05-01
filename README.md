@@ -17,7 +17,7 @@ docker build -f Dockerfile.dev -t techeer-a .
 -f : Dockerfile.dev가 따로 있기때문에 build 할 대상을 지정해주어야 함   
 -t : docker image 태그   
 
-1. docker images
+2. docker images
 
 ```bash
 docker images
@@ -25,7 +25,7 @@ docker images
 
 위 명령어를 입력하여 techeer-a라는 이미지가 생성되었는지 확인 필요
 
-1. docker run
+3. docker run
 
 ```bash
 docker run -p 3000:3000 techeer-a
