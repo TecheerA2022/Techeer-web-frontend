@@ -2,7 +2,7 @@ import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import { Button } from "@mui/material";
+import Button from "react-bootstrap/Button";
 import "./style.css";
 
 export default function ProjectTile(props: any) {
@@ -30,13 +30,13 @@ export default function ProjectTile(props: any) {
         </Typography>
       </CardContent>
       <div className="projectTags">
-        <Button variant="contained">
+        <Button className="projectTagBtn" variant="contained" size="sm">
           <h6>React</h6>
         </Button>
-        <Button variant="contained">
+        <Button className="projectTagBtn" variant="contained" size="sm">
           <h6>Spring Boot</h6>
         </Button>
-        <Button variant="contained">
+        <Button className="projectTagBtn" variant="contained" size="sm">
           <h6>Redis</h6>
         </Button>
       </div>
