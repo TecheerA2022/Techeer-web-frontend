@@ -1,0 +1,43 @@
+.projectCard {
+    width: 350px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+  }
+  
+  .projectCardImg {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 14px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+  }
+  
+  .projectDesc {
+    margin-top: 11px;
+  }
+  
+  .projectTags {
+    padding: 16px;
+  }
+  
+  .projectTags Button {
+    margin-right: 12px;
+    background: #efefef;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+  }
+  
+  .projectTags Button:hover {
+    background: lightgray;
+  }
+  
+  .projectTags h6 {
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    color: #000000;
+  }
+  
