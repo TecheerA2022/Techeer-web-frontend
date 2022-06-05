@@ -50,6 +50,9 @@ export default function Project() {
         <h1>Projects</h1>
         <p>make your skills visible</p>
       </Grid>
+      <Grid item xs={12} className="page_hr">
+        <div></div>
+      </Grid>
       <Grid item xs={4}>
         <ProjectTile />
       </Grid>
