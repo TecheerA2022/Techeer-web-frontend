@@ -47,7 +47,40 @@
 }
 
 .page_hr div {
+  margin-top: 16px;
   width: 1231px;
   height: 0px;
   border: 0.5px solid #000000;
+}
+
+.semester_button_groups {
+  padding-top: 40px;
+  padding-left: 16px;
+  margin-bottom: 49px;
+}
+
+.semester-button {
+  width: 65px;
+  height: 38px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: none;
+}
+.semester-button:active {
+  background: #7d7d7d;
+  color: #fafafa;
+}
+.semester-button:hover {
+  background: #7d7d7d;
+  color: #fafafa;
+}
+.semester-button:focus {
+  background: #7d7d7d;
+  color: #fafafa;
+}
+
+.projects_groups {
+  padding-left: 16px;
 }
