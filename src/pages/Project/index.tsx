@@ -44,10 +44,11 @@ export default function Project() {
       alignItems="center"
       style={{ padding: "77px" }}
     >
-      <Grid item xs={12}>
+      <Grid item xs={12} className="page_header">
         <img src={blob_shape2} alt="blob_shape2" className="blob_shape2"></img>
         <img src={blob_shape1} alt="blob_shape1" className="blob_shape1"></img>
         <h1>Projects</h1>
+        <p>make your skills visible</p>
       </Grid>
       <Grid item xs={4}>
         <ProjectTile />
