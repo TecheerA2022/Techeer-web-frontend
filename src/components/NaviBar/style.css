@@ -1,3 +1,5 @@
 .navbar-body {
   z-index: 999;
+  background: #121e12;
+  padding: 8px;
 }

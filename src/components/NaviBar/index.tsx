@@ -4,13 +4,7 @@ import "./style.css";
 
 const Navibar = () => {
   return (
-    <Navbar
-      className="navbar-body"
-      collapseOnSelect
-      expand="lg"
-      bg="dark"
-      variant="dark"
-    >
+    <Navbar className="navbar-body" collapseOnSelect expand="lg" variant="dark">
       <Navbar.Brand href="/">Techeer;</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
