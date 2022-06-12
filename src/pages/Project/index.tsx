@@ -7,6 +7,7 @@ import blob_shape2 from "../../assets/images/blob_shape2.svg";
 import "./style.css";
 
 export default function Project() {
+  // 아직은 사용되지 않음
   const projectDatas = [
     {
       semester: "1기",
