@@ -1,0 +1,86 @@
+.blob_shape2 {
+  z-index: -2;
+  position: absolute;
+  margin-top: 36px;
+  width: 257px;
+  height: 225px;
+  left: -19px;
+  top: 36px;
+}
+
+.blob_shape1 {
+  z-index: -1;
+  position: absolute;
+  margin-top: 36px;
+  width: 153.08px;
+  height: 135.3px;
+  left: 161px;
+  top: -7px;
+}
+
+.page_header h1 {
+  z-index: 90;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 90px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #515151;
+
+  text-shadow: 0px 6px 12px rgba(11, 11, 11, 0.23);
+}
+
+.page_header p {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #515151;
+
+  text-shadow: 0px 6px 12px rgba(11, 11, 11, 0.23);
+}
+
+.page_hr div {
+  margin-top: 16px;
+  width: 1231px;
+  height: 0px;
+  border: 0.5px solid #000000;
+}
+
+.semester_button_groups {
+  padding-top: 40px;
+  padding-left: 16px;
+  margin-bottom: 49px;
+}
+
+.semester-button {
+  width: 65px;
+  height: 38px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: none;
+}
+.semester-button:active {
+  background: #7d7d7d;
+  color: #fafafa;
+}
+.semester-button:hover {
+  background: #7d7d7d;
+  color: #fafafa;
+}
+.semester-button:focus {
+  background: #7d7d7d;
+  color: #fafafa;
+}
+
+.projects_groups {
+  padding-left: 16px;
+}
