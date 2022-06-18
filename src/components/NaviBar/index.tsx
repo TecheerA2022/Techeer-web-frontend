@@ -29,8 +29,8 @@ const Navibar = () => {
         </Nav>
         <Nav>
           <NavDropdown title="Profile" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Login</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Register</NavDropdown.Item>
+            <NavDropdown.Item href="/signin">Login</NavDropdown.Item>
+            <NavDropdown.Item href="/signup">Register</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">Logout</NavDropdown.Item>
           </NavDropdown>

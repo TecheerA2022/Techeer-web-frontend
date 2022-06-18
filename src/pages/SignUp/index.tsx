@@ -11,7 +11,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import logo from './logo_tech.png'
+import logo from '../../assets/images/Techeer_Logo_circle.png';
 
 function Copyright(props: any) {
   return (
@@ -94,7 +94,7 @@ export default function SignUp() {
                   required
                   fullWidth
                   name="github"
-                  label="Github ID"
+                  label="Github Link"
                   type="github"
                   id="github"
                   autoComplete="github"
@@ -146,7 +146,6 @@ export default function SignUp() {
             </Grid>
           </Box>
         </Box>
-        <Copyright sx={{ mt: 5 }} />
       </Container>
     </ThemeProvider>
   );

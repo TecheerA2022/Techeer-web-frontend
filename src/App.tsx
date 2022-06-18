@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Member from "./pages/Member";
 import Board from "./pages/Board";
-import Login from "./pages/Login";
+import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/member" element={<Member />} />
           <Route path="/board" element={<Board />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
       </Router>
